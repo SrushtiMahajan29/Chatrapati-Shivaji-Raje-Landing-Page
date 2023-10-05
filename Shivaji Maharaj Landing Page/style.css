@@ -1,0 +1,114 @@
+*{
+    background: #d4c5b0;
+    color: #000;;
+/* background: url(images/cloudy.jpg); */
+}
+body{
+    background:#fff;
+    color: #000;
+}
+.sliding
+{
+    background: orangered;
+    text-align: center;
+}
+
+.nav{
+    background: rgb(225, 139, 0);
+    text-align: center;
+}
+.container
+{
+    /* background: url(C:\Users\srush\OneDrive\Pictures\junner\nature.HEIC);
+    background: #f9a32d; */
+    width: 94em;
+    height: 30em;
+    /* border: 3px solid rgb(0, 0, 0); */
+}
+.container .head
+{
+    background: url(images/cloudy.jpg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container .head .name{
+    background:  #d4c5b0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #8f4040;
+    border-radius: 20px;
+}
+.container .head h2
+{
+    background:  #d4c5b0;
+    text-decoration: wavy;
+    text-shadow:2px 2px 2px #ff5e00 ;
+    font-size: 60px;
+    font-style: italic;
+    margin: 2px;
+    padding: 7px 180px;
+}
+.container .head img{
+    margin: 80px 20px;
+    padding: 0px;
+    width: 25em;
+    height: 25em;
+    border: none;
+    border-radius: 20px;
+}
+.text{
+    display: block;
+}
+.text{
+    background: #dcdcdc;
+}
+.GAD{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 12px 78px;
+}
+.GAD >div{
+    margin: 12px 12px;
+}
+.desc{
+    border: 2px solid #000;
+    /* margin: 0px 154px; */
+    padding: 40px 110px;
+    background: #d4c5b0;
+}
+.nakasha img{
+    margin-left: 470px;
+}
+.nakasha h2{
+    text-align: center;
+    color: #000;
+    background: rgb(132, 90, 14);
+}
+table{
+    background: black;
+    margin: 7px 350px;
+    /* padding: 20px 120px; */
+}
+.head2{
+    text-align: center;
+    color: #000;
+    background: rgb(132, 90, 14);
+}
+table tr{
+    /* background: #000; */
+    padding: 2px 2px;
+}
+table .Heading
+{
+    background: #ff5e00;
+}
+table .Description
+{
+    background: #db9647;
+    text-align: center;
+}
